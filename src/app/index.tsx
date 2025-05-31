@@ -2,22 +2,20 @@
 import React, { useEffect } from 'react';
 import { View, Text, ActivityIndicator, StyleSheet, Image } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../App';
+import { router } from 'expo-router';
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
-
-const HomeScreen: React.FC<Props> = ({ navigation }) => {
+const HomeScreen: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
-      navigation.replace('Main');
-    }, 5000); // redireciona após 2 segundos
+      router.replace('/main');
+    }, 5000);
 
     return () => clearTimeout(timer);
-  }, [navigation]);
+  }, [router]);
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/logo.png')} style={{marginBottom:100, width:200, height:210}} />
+      <Image source={require('../../assets/logo.png')} style={{marginBottom:100, width:200, height:210}} />
       <ActivityIndicator size="large" color="#fff" />
       <Text style={styles.text}>Carregando...</Text>
     </View>

@@ -1,17 +1,18 @@
 // screens/MainScreen.tsx
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity, TextInput } from 'react-native';
-import GradientBackground from './components/GradientBackground';
-import { Botao } from './components/Botao';
+import GradientBackground from '../../components/GradientBackground';
+import { Botao } from '../../components/Botao';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import Feather from '@expo/vector-icons/Feather';
-
+import { router } from 'expo-router';
 
 const MainScreen: React.FC = () => {
+
   return (
     <GradientBackground>
       <View style={styles.container}>
-        <Image source={require('../assets/logo.png')} style={{marginBottom:10, width:200, height:210}} />
+        <Image source={require('../../../assets/logo.png')} style={{marginBottom:10, width:200, height:210}} />
 
         <Text style={{fontWeight:700, fontSize:33}}>Login</Text>
         <View style={[{flexDirection:'row',alignItems:'center', gap:10}]}>
@@ -33,7 +34,7 @@ const MainScreen: React.FC = () => {
             <AntDesign name="google" size={24} color="white" /> Entrar com Google
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity style={{padding:12}}>
+        <TouchableOpacity onPress={() => router.navigate('/register')} style={{padding:12}}>
           <Text style={{color:'#7D7D7D', fontWeight:'bold'}}>
             Ainda não possui um conta? Cadastre-se
           </Text>
