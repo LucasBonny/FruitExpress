@@ -20,13 +20,20 @@
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.lucasbonny.FruitExpress"
     },
     "web": {
       "favicon": "./assets/logo.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "54c22128-6357-431c-a238-9352d6af8dc8"
+      }
+    }
   }
 }

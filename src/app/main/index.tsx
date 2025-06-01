@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 import GradientBackground from '../../components/GradientBackground';
 import { Botao } from '../../components/Botao';
 import { router } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 
 const MainScreen: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const MainScreen: React.FC = () => {
         <Botao name='Cliente' onPress={() =>{}}></Botao>
         <Text style={styles.text}>ou</Text>
         <Botao name='Entregador' onPress={() => router.navigate('login')}></Botao>
+        <StatusBar style="auto" />
       </View>
     </GradientBackground>
   );

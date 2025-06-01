@@ -5,6 +5,7 @@ import GradientBackground from '../../components/GradientBackground';
 import { Botao } from '../../components/Botao';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import Feather from '@expo/vector-icons/Feather';
+import { StatusBar } from 'expo-status-bar';
 import { router } from 'expo-router';
 
 const MainScreen: React.FC = () => {
@@ -39,6 +40,7 @@ const MainScreen: React.FC = () => {
             Ainda não possui um conta? Cadastre-se
           </Text>
         </TouchableOpacity>
+        <StatusBar style="auto" />
       </View>
     </GradientBackground>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, TextInput } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { View, Text, StyleSheet, Image, TextInput } from 'react-native';
 import GradientBackground from '../../components/GradientBackground';
 import { Botao } from '../../components/Botao';
 import Feather from '@expo/vector-icons/Feather';
@@ -30,7 +31,8 @@ const MainScreen: React.FC = () => {
             Concordo com os <Text style={{color:'#1976D2'}}>Termos & Condições</Text>
           </Text>
         </View>
-        <Botao name='Continuar Criando' onPress={() =>{router.navigate('/home')}}></Botao>
+        <Botao name='Continuar Criando' onPress={() =>{router.navigate('/continue')}}></Botao>
+        <StatusBar style="auto" />
       </View>
     </GradientBackground>
   );

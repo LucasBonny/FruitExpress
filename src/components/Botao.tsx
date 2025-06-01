@@ -1,29 +1,40 @@
 import React from 'react';
-import { Button, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 interface BotaoProps {
   name: string;
-  onPress: () => void;  // Sempre é bom passar
+  variant?: 'primary' | 'secondary'
+  onPress: () => void;
 }
 
-export const Botao: React.FC<BotaoProps> = ({ name, onPress }) => {
+export const Botao: React.FC<BotaoProps> = ({ name, variant = 'primary', onPress }) => {
+  const buttonStyle = variant === 'primary' ? styles.primary : styles.secondary;
   return (
-    <TouchableOpacity style={styles.button} onPress={onPress}>
+    <View style={{alignItems: 'center'}}>
+      <TouchableOpacity style={[styles.button, buttonStyle]} onPress={onPress}>
         <Text style={styles.text}>{name}</Text>
-    </TouchableOpacity>
+      </TouchableOpacity>  
+    </View>
   );
 };
 const styles = StyleSheet.create({
     button: {
+        alignItems:'center',
         backgroundColor:'#4FC235',
-        padding:10,
-        width:250,
-        borderRadius:30,
-        alignItems:'center'
     },
     text: {
         fontSize: 17,
         color:'white',
         fontWeight: 'bold'
+    },
+    primary: {
+        width:250,
+        borderRadius:30,
+        padding:10,
+    },
+    secondary: {
+        borderRadius:10,
+        width: '90%',
+        padding:10,
     }
 });
