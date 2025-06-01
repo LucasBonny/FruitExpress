@@ -12,7 +12,7 @@ export default function index() {
             <Ionicons name="arrow-back" style={{marginLeft:20}} size={30} color="white" onPress={()=> router.back()} />
         </View>
 
-        <ScrollView contentContainerStyle={{paddingBottom:100}}>
+        <ScrollView style={{backgroundColor:'white'}} contentContainerStyle={{paddingBottom:100}}>
             <Text style={styles.title}>Vamos continuar criando sua conta</Text>
             <View style={{flexDirection:'row'}}>
                 <View style={styles.view}>
@@ -46,7 +46,7 @@ export default function index() {
                 </View>
                 <Text>Eu também concordo que o FrutExpress e seus representantes podem entrar em contato via e-mail, telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que eu forneci, inclusive para fins de marketing.</Text>
             </View>
-            <Botao variant="secondary" name='Continuar' onPress={()=>{}} />
+            <Botao variant="secondary" name='Continuar' onPress={()=>router.navigate('entregador')} />
         </ScrollView>
         <StatusBar style="auto" />
     </View>

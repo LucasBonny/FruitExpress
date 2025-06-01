@@ -18,11 +18,11 @@ const MainScreen: React.FC = () => {
         <Text style={{fontWeight:700, fontSize:33}}>Login</Text>
         <View style={[{flexDirection:'row',alignItems:'center', gap:10}]}>
           <Feather name="at-sign" size={24} color="#7d7d7d" />
-          <TextInput placeholder='E-mail' style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1}}></TextInput>
+          <TextInput placeholder='E-mail' placeholderTextColor="#7D7D7D" style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1, color: '#000'}}></TextInput>
         </View>
         <View style={[{flexDirection:'row',alignItems:'center', gap:10}]}>
           <Feather name="lock" size={24} color="#7d7d7d" />
-          <TextInput placeholder='Senha' style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1}}></TextInput>
+          <TextInput placeholder='Senha' placeholderTextColor="#7D7D7D" style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1, color: '#000'}}></TextInput>
         </View>
 
         <View style={{paddingTop:5, flexDirection:'row',width:255, justifyContent:'flex-end', paddingBottom:30}}>

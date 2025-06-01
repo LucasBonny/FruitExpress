@@ -14,15 +14,15 @@ const MainScreen: React.FC = () => {
         <Text style={{fontWeight:700, fontSize:33}}>Registre-se</Text>
         <View style={[{flexDirection:'row',alignItems:'center', gap:10}]}>
           <Feather name="user" size={24} color="#7d7d7d" />
-          <TextInput placeholder='Nome' style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1}}></TextInput>
+          <TextInput placeholder='Nome' placeholderTextColor="#7D7D7D" style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1, color: '#000'}}></TextInput>
         </View>
         <View style={[{flexDirection:'row',alignItems:'center', gap:10}]}>
           <Feather name="mail" size={24} color="#7d7d7d" />
-          <TextInput placeholder='E-mail' style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1}}></TextInput>
+          <TextInput placeholder='E-mail' placeholderTextColor="#7D7D7D" style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1, color: '#000'}}></TextInput>
         </View>
         <View style={[{flexDirection:'row',alignItems:'center', gap:10}]}>
           <Feather name="lock" size={24} color="#7d7d7d" />
-          <TextInput placeholder='Senha' style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1}}></TextInput>
+          <TextInput placeholder='Senha' placeholderTextColor="#7D7D7D" style={{width:225, borderBottomColor:'#7d7d7d', borderBottomWidth:1, color: '#000'}}></TextInput>
         </View>
 
         <View style={{paddingTop:15, flexDirection:'row',width:255, alignItems:'center', justifyContent:'center', paddingBottom:20, gap: 5}}>
