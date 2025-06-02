@@ -1,4 +1,6 @@
-{
+import 'dotenv/config';
+
+export default ({ config }) => ({
   "expo": {
     "name": "FruitExpress",
     "slug": "FruitExpress",
@@ -20,7 +22,7 @@
       "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyCEvbU7xYx-jNq8iPs24sCKD7t1ENuuGSM"
+          "apiKey": process.env.GOOGLE_MAPS_API_KEY
         }
       },
       "adaptiveIcon": {
@@ -42,4 +44,4 @@
       }
     }
   }
-}
+});
