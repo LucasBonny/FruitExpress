@@ -44,6 +44,8 @@ Done.
 ![homeApp](./assets/screenshots/screen-8.png)
 
 ## 17. Menu lateral (02/06/2025)
+Done.
+![menu](./assets/screenshots/screen-9.png)
 
 ## 18. Ganhos e Saldo (03/06/2025)
 

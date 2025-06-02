@@ -3,9 +3,12 @@ import { View, StyleSheet, ActivityIndicator, TouchableOpacity, Text } from 'rea
 import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import * as Location from 'expo-location';
 import Feather from '@expo/vector-icons/Feather';
+import { useNavigation } from 'expo-router';
+import { DrawerActions } from '@react-navigation/native';
 
 export default function MapScreen() {
   const [location, setLocation] = useState<Location.LocationObject | null>(null);
+  const navigation = useNavigation();
 
   useEffect(() => {
     (async () => {
@@ -39,7 +42,7 @@ export default function MapScreen() {
     </MapView>
 
         <View style={styles.topMenu}>
-            <View style={{backgroundColor:'white', borderRadius:30, padding:14, borderWidth:0.8}}><Feather name="menu" size={24} color="black" /></View>
+            <TouchableOpacity onPress={() => navigation.dispatch(DrawerActions.openDrawer())} style={{backgroundColor:'white', borderRadius:30, padding:14, borderWidth:0.8}}><Feather name="menu" size={24} color="black" /></TouchableOpacity>
             <View style={{backgroundColor:'#4FC235', padding: 29, paddingTop:14,paddingBottom:14,borderRadius:40}}><Text style={{fontWeight:'bold', fontSize:20, color:'white'}}>R$ 0,00</Text></View>
             <View style={{backgroundColor:'white', borderRadius:30, padding:14, borderWidth:0.8}}><Feather name="search" size={24} color="black" /></View>
         </View>
