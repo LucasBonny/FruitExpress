@@ -23,7 +23,9 @@ Done.
 Done.
 ![allright](./assets/screenshots/screen-7.png)
 
-## 8. Verificação facial (31/05/2025)
+## 8. Perfil No App (31/05/2025)
+Done.
+![perfil](./assets/screenshots/screen-10.png)
 
 ## 9. Foto de segurança, CHECK (31/05/2025)
 

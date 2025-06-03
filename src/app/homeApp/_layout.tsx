@@ -50,8 +50,14 @@ function CustomDrawerContent(props: any) {
 
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
-        label="Caixa de entrada"
+        label="Perfil"
         style={[styles.item, {borderTopWidth:1, borderColor:'#454545'}]}
+        onPress={() => router.navigate('perfil')}
+      />
+      <DrawerItem
+        labelStyle={{fontSize:30, color: 'black'}}
+        label="Caixa de entrada"
+        style={styles.item}
         onPress={() => router.replace('homeApp')}
       />
       <DrawerItem
