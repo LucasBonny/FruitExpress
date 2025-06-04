@@ -74,3 +74,11 @@ Done.
 ## 20. Documento
 Done.
 ![documento](./assets/screenshots/screen-20.png)
+
+## 21. Anexar
+Done.
+![anexar](./assets/screenshots/screen-21.png)
+
+## 22. Facial
+Done.
+![facial](./assets/screenshots/screen-22.png)

@@ -25,7 +25,7 @@ export default function index() {
                 </View>
                 <AntDesign name="right" size={24} color="black" />
             </TouchableOpacity>
-            <TouchableOpacity style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
+            <TouchableOpacity onPress={() => router.navigate('cnh')} style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
                 <View style={{flexDirection:'row', gap: 12, alignItems:'center'}}>
                     <Ionicons name="document-text" size={24} color="black" />
                     <View>
@@ -35,7 +35,7 @@ export default function index() {
                 </View>
                 <AntDesign name="right" size={24} color="black" />
             </TouchableOpacity>
-            <TouchableOpacity style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
+            <TouchableOpacity onPress={() => router.navigate('anexar')} style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
                 <View style={{flexDirection:'row', gap: 12, alignItems:'center'}}>
                     <Ionicons name="document-text" size={24} color="black" />
                     <View>
@@ -45,7 +45,7 @@ export default function index() {
                 </View>
                 <AntDesign name="right" size={24} color="black" />
             </TouchableOpacity>
-            <TouchableOpacity style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
+            <TouchableOpacity onPress={() => router.navigate('documento')} style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
                 <View style={{flexDirection:'row', gap: 12, alignItems:'center'}}>
                     <Ionicons name="document-text" size={24} color="black" />
                     <View>
