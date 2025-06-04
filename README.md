@@ -79,6 +79,10 @@ Done.
 Done.
 ![anexar](./assets/screenshots/screen-21.png)
 
-## 22. Facial
+## 22. Verificação Facial
 Done.
 ![facial](./assets/screenshots/screen-22.png)
+
+## 23. Verificação Facial
+Done.
+![foto](./assets/screenshots/screen-23.png)
