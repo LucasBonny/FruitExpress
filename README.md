@@ -70,3 +70,7 @@ Done.
 ## 19. CNH
 Done.
 ![cnh](./assets/screenshots/screen-19.png)
+
+## 20. Documento
+Done.
+![documento](./assets/screenshots/screen-20.png)
