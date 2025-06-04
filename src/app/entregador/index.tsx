@@ -15,7 +15,7 @@ export default function index() {
         <Text style={[styles.title,{fontSize:17}]}>Etapas obrigatórias</Text>
         <Text style={{padding:20, paddingTop:0, fontSize:13}}>Veja aqui o que você precisa fazer para criar sua conta.</Text>
         <View style={{paddingBottom:50}}>
-            <TouchableOpacity onPress={() => {}} style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
+            <TouchableOpacity onPress={() => router.navigate('facial')} style={{padding:30, paddingBottom:15, paddingTop:20,borderBottomWidth:1, borderBottomColor:'#E3E3E3', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
                 <View style={{flexDirection:'row', gap: 12, alignItems:'center'}}>
                     <Ionicons name="document-text" size={24} color="black" />
                     <View>
