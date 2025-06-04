@@ -1,4 +1,4 @@
-# Telas do projeto - (15/23)
+# Telas do projeto - (16/23)
 Controle de construção do layout
 
 ## 1. Tela de loading (30/05/2025)
@@ -54,7 +54,9 @@ Done.
 Done.
 ![destino](./assets/screenshots/screen-12.png)
 
-## 16. Ganhos e Saldo (04/06/2025)
+## 16. Carteira (04/06/2025)
+Done.
+![carteira](./assets/screenshots/screen-16.png)
 
 ## 17. Saque (04/06/2025)
 

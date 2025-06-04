@@ -62,7 +62,7 @@ export default function index() {
             </View>
         </View>
 
-        <Botao name='Menu' variant='secondary' onPress={() => {}}/>
+        <Botao name='Carteira' variant='secondary' onPress={() => {}}/>
 
         <StatusBar style="auto" />
     </View>
