@@ -46,7 +46,7 @@ function CustomDrawerContent(props: any) {
         labelStyle={{fontSize:30, color: 'black'}}
         label="Caixa de entrada"
         style={styles.item}
-        onPress={() => {}}
+        onPress={() => router.navigate('mail')}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
@@ -64,13 +64,13 @@ function CustomDrawerContent(props: any) {
         labelStyle={{fontSize:30, color: 'black'}}
         label="Conta"
         style={styles.item}
-        onPress={() => router.navigate('homeApp')}
+        onPress={() => router.navigate('carteira')}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
         label="Ajuda"
         style={styles.item}
-        onPress={() => router.navigate('homeApp')}
+        onPress={() => {}}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
