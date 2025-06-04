@@ -1,4 +1,4 @@
-# Telas do projeto - (11/23)
+# Telas do projeto - (14/23)
 Controle de construção do layout
 
 ## 1. Tela de loading (30/05/2025)
@@ -57,7 +57,9 @@ Done.
 Done.
 ![valor](./assets/screenshots/screen-13.png)
 
-## 20. Transferência (03/06/2025)
+## 20. Valor Confirmar (03/06/2025)
+Done.
+![valor](./assets/screenshots/screen-14.png)
 
 ## 21. Comprovante de pagamento (03/06/2025)
 Done.

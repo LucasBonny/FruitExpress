@@ -7,7 +7,7 @@ import { router } from 'expo-router';
 const HomeScreen: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace('/valor');
+      router.replace('/valorConfirmar');
     }, 1000);
 
     return () => clearTimeout(timer);

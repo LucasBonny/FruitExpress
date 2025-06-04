@@ -24,7 +24,7 @@ export default function index() {
             <FontAwesome6 name="pencil" size={40} color="black" />
         </View>
 
-        <Botao name='Continuar' variant='secondary' onPress={() => {}}/>
+        <Botao name='Continuar' variant='secondary' onPress={() => router.navigate('valorConfirmar')}/>
 
         <StatusBar style="auto" />
     </View>
