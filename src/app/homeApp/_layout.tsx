@@ -58,31 +58,31 @@ function CustomDrawerContent(props: any) {
         labelStyle={{fontSize:30, color: 'black'}}
         label="Caixa de entrada"
         style={styles.item}
-        onPress={() => router.replace('homeApp')}
+        onPress={() => router.navigate('homeApp')}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
         label="Oportunidades"
         style={styles.item}
-        onPress={() => router.replace('homeApp')}
+        onPress={() => router.navigate('homeApp')}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
         label="Ganhos"
         style={styles.item}
-        onPress={() => router.replace('homeApp')}
+        onPress={() => router.navigate('ganhos')}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
         label="Conta"
         style={styles.item}
-        onPress={() => router.replace('homeApp')}
+        onPress={() => router.navigate('homeApp')}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
         label="Ajuda"
         style={styles.item}
-        onPress={() => router.replace('homeApp')}
+        onPress={() => router.navigate('homeApp')}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}

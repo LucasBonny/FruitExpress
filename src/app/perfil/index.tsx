@@ -8,8 +8,9 @@ import { router } from 'expo-router';
 export default function index() {
   return (
     <View>
-        <View style={{width:'100%', backgroundColor:'#4FC235',height:70, justifyContent:'center'}}>
+        <View style={{width:'100%', backgroundColor:'#4FC235',height:70, justifyContent:'flex-start', flexDirection:'row', gap:10, alignItems:'center'}}>
             <Ionicons name="arrow-back" style={{marginLeft:20}} size={30} color="white" onPress={()=> router.back()} />
+            <Text style={{fontSize:24, color:'white', fontWeight:'bold'}}>Perfil</Text>
         </View>
 
         <View style={{padding:25,paddingTop:19}}>

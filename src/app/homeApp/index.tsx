@@ -18,6 +18,8 @@ export default function MapScreen() {
         return;
       }
       const currentLocation = await Location.getCurrentPositionAsync({});
+      currentLocation.coords.latitude = -15.864507744870222;
+      currentLocation.coords.longitude = -48.03170448207285;
       setLocation(currentLocation);
     })();
   }, []);
@@ -32,8 +34,8 @@ export default function MapScreen() {
         provider={PROVIDER_GOOGLE}
         style={StyleSheet.absoluteFillObject}
         region={{
-          latitude: location.coords.latitude,
-          longitude: location.coords.longitude,
+          latitude: -15.864507744870222,
+          longitude: -48.03170448207285,
           latitudeDelta: 0.01,
           longitudeDelta: 0.01,
         }}
