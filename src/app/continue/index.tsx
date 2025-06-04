@@ -14,14 +14,14 @@ export default function index() {
 
         <ScrollView style={{backgroundColor:'white'}} contentContainerStyle={{paddingBottom:100}}>
             <Text style={styles.title}>Vamos continuar criando sua conta</Text>
-            <View style={{flexDirection:'row'}}>
+            <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center', gap:5}}>
                 <View style={styles.view}>
                     <Text style={styles.viewText}>Nome</Text>
-                    <TextInput style={[styles.viewInput, {width:155}]} placeholder='' onChangeText={()=>{}} />
+                    <TextInput style={[styles.viewInput, {width:160}]} placeholder='' onChangeText={()=>{}} />
                 </View>
                 <View style={styles.view}>
                     <Text style={styles.viewText}>Sobrenome</Text>
-                    <TextInput style={[styles.viewInput, {width:155}]} placeholder='' onChangeText={()=>{}} />
+                    <TextInput style={[styles.viewInput, {width:160}]} placeholder='' onChangeText={()=>{}} />
                 </View>
             </View>
             <View style={styles.view}>
