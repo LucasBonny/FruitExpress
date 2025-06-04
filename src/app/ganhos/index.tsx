@@ -62,7 +62,7 @@ export default function index() {
             </View>
         </View>
 
-        <Botao name='Carteira' variant='secondary' onPress={() => {}}/>
+        <Botao name='Carteira' variant='secondary' onPress={() => router.navigate('carteira')}/>
 
         <StatusBar style="auto" />
     </View>

@@ -7,8 +7,8 @@ import { router } from 'expo-router';
 const HomeScreen: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace('/carteira');
-    }, 1000);
+      router.replace('/main');
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [router]);

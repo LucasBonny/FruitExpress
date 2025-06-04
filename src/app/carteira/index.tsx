@@ -1,5 +1,6 @@
 import React from 'react'
-import { Text, View, StyleSheet, TextInput, ScrollView, Image } from 'react-native'
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { Text, View, StyleSheet, TextInput, ScrollView, Image, TouchableOpacity } from 'react-native'
 import { StatusBar } from 'expo-status-bar';
 import Feather from '@expo/vector-icons/Feather';
 import AntDesign from '@expo/vector-icons/AntDesign';
@@ -11,7 +12,7 @@ export default function index() {
     <View>
         <View style={{width:'100%', backgroundColor:'#4FC235',height:250, gap:10}}>
             <View style={{paddingTop:30 ,flexDirection:'row', gap:10}}>
-                <Feather name="x" style={{marginLeft:20}} size={30} color="white" onPress={()=> router.back()} />
+                <Ionicons name="arrow-back" style={{marginLeft:20}} size={30} color="white" onPress={()=> router.back()} />
                 <Text style={{fontSize:24, color:'white', fontWeight:'bold'}}>Carteira</Text>
             </View>
             <View style={{alignItems:'center'}}>
@@ -24,12 +25,12 @@ export default function index() {
 
         
             <View style={{flexDirection:'row', justifyContent:'center',gap:20, paddingTop: 50}}>
-                <View>
+                <TouchableOpacity onPress={() => router.navigate('carteiraEnviar')}>
                     <View style={{borderRadius:26,alignItems:'center', justifyContent:'center', backgroundColor:'#D9D9D9',width:150, height:150}}>
                         <FontAwesome6 name="money-bill-wave" size={24} color="black" />
                         <Text>Transferências</Text>
                     </View>
-                </View>
+                </TouchableOpacity>
 
                 <View>
                     <View style={{borderRadius:26,alignItems:'center', justifyContent:'center', backgroundColor:'#D9D9D9',width:150, height:150}}>

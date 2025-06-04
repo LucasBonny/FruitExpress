@@ -16,18 +16,6 @@ export default function Layout() {
             drawerLabel: 'Caixa de entrada',
           }}
         />
-        <Drawer.Screen
-          name="(drawer)/perfil/index"
-          options={{
-            drawerLabel: 'Oportunidades',
-          }}
-        />
-        <Drawer.Screen
-          name="(drawer)/teste/index"
-          options={{
-            drawerLabel: 'Ganhos',
-          }}
-        />
       </Drawer>
     </GestureHandlerRootView>
   );
@@ -58,13 +46,13 @@ function CustomDrawerContent(props: any) {
         labelStyle={{fontSize:30, color: 'black'}}
         label="Caixa de entrada"
         style={styles.item}
-        onPress={() => router.navigate('homeApp')}
+        onPress={() => {}}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
         label="Oportunidades"
         style={styles.item}
-        onPress={() => router.navigate('homeApp')}
+        onPress={() => {}}
       />
       <DrawerItem
         labelStyle={{fontSize:30, color: 'black'}}
