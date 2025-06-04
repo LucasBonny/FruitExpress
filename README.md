@@ -57,7 +57,9 @@ Done.
 
 ## 20. Transferência (03/06/2025)
 
-## 21. Comprovante de Saque (03/06/2025)
+## 21. Comprovante de pagamento (03/06/2025)
+Done.
+![comprovante](./assets/screenshots/screen-12.png)
 
 ## 22. Ganhos e Saldo (04/06/2025)
 
