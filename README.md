@@ -66,3 +66,7 @@ Done.
 ## 18. Comprovante de pagamento
 Done.
 ![comprovante](./assets/screenshots/screen-12.png)
+
+## 19. CNH
+Done.
+![cnh](./assets/screenshots/screen-19.png)
