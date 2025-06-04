@@ -53,7 +53,9 @@ Done.
 Done.
 ![ganhos](./assets/screenshots/screen-11.png)
 
-## 19. Saque (03/06/2025)
+## 19. Valor (03/06/2025)
+Done.
+![valor](./assets/screenshots/screen-13.png)
 
 ## 20. Transferência (03/06/2025)
 
