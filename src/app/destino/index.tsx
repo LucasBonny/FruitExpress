@@ -21,7 +21,7 @@ export default function index() {
             <Text style={{fontSize:20, color:'#757575'}}>Celular,CPF/CNPJ,aleatório ou e-email</Text>
         </View>
 
-        <Botao name='Continuar' variant='secondary' onPress={() => router.navigate('valorConfirmar')}/>
+        <Botao name='Continuar' variant='secondary' onPress={() => router.navigate('valor')}/>
 
         <StatusBar style="auto" />
     </View>
